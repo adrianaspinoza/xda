@@ -1,0 +1,16 @@
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+//base
+@import "base/reset";
+
+//components
+@import "components/button";
+@import "components/nav";
+//layout
+@import "layout/grilla";
+
+//pages
+@import "pages/index"
+

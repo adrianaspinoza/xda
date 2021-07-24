@@ -1,0 +1,63 @@
+h1{
+    font-family: $primary-font;
+    font-size: $font-xxx-large;
+    font-weight: $old-standard-bold;
+    margin: 0;
+}
+
+h2{
+    color: $white;
+    font-size: $font-xx-large;
+    padding-bottom: 30px;
+}
+.news{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.bg-black{
+    background-color: $smokyblack ;
+}
+
+input{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    color: $white;
+}
+
+.suscribir{
+    writing-mode: vertical-lr;
+    padding-top: 65px;
+    padding-left: 10px;
+    font-size: x-large;
+    font-family: $primary-font;
+    font-weight: $old-standard-bold;
+}
+.texto{
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.texto p{
+    color: $quicksilver;
+    line-height: 25px;
+    padding: 10px 50% 20px 0px;
+}
+    @media (max-width: 768px) {
+        .texto p{
+            padding-right: 20%;
+            color: $quicksilver;
+            line-height: 20px;
+        }
+        .suscribir{
+            padding-top: 65px;
+            padding-left: 5px;
+        }
+    }
